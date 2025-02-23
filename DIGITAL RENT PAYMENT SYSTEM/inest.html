@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invest With Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #b3cde0, #f0f8ff);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background: #b3cde0;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .back-btn {
+            background: #007bff;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .back-btn:hover {
+            background: #0056b3;
+        }
+        .container {
+            max-width: 1100px;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            margin: 30px auto;
+        }
+        h2 {
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .investment-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .investment-table th, .investment-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        .investment-table th {
+            background: #007bff;
+            color: white;
+        }
+        .invest-btn {
+            background: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .invest-btn:hover {
+            background: #218838;
+        }
+        .contact-form {
+            margin-top: 30px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="dashboard.html" class="back-btn"><i class="fas fa-arrow-left"></i> Go Back</a>
+    </div>
+
+    <div class="container">
+        <h2>Invest With Us</h2>
+        <p>Welcome to our investment platform. We provide safe and high-return investment opportunities. Explore our plans below and start investing today.</p>
+
+        <h3>📌 Available Investment Plans</h3>
+        <table class="investment-table">
+            <tr>
+                <th>Investment Plan</th>
+                <th>Minimum Amount</th>
+                <th>Annual Return (%)</th>
+                <th>Duration</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>Starter Plan</td>
+                <td>Ksh 20,000</td>
+                <td>8%</td>
+                <td>12 months</td>
+                <td><a href="#" class="invest-btn">Invest Now</a></td>
+            </tr>
+            <tr>
+                <td>Gold Plan</td>
+                <td>Ksh 90,000</td>
+                <td>12%</td>
+                <td>24 months</td>
+                <td><a href="#" class="invest-btn">Invest Now</a></td>
+            </tr>
+            <tr>
+                <td>Platinum Plan</td>
+                <td>Ksh 150,000</td>
+                <td>15%</td>
+                <td>36 months</td>
+                <td><a href="#" class="invest-btn">Invest Now</a></td>
+            </tr>
+        </table>
+
+        <h3>📊 Why Invest With Us?</h3>
+        <ul>
+            <li>✔️ High and guaranteed returns</li>
+            <li>✔️ Secure investment options</li>
+            <li>✔️ Transparent and flexible withdrawal</li>
+            <li>✔️ Trusted by thousands of investors</li>
+        </ul>
+
+        <h3>💡 Frequently Asked Questions (FAQs)</h3>
+        <p><strong>1. How do I start investing?</strong><br>Simply select a plan above and click "Invest Now" to get started.</p>
+        <p><strong>2. When will I receive my returns?</strong><br>Returns are calculated annually and can be withdrawn anytime.</p>
+        <p><strong>3. Can I withdraw before the investment period ends?</strong><br>Yes, early withdrawals are allowed with a small processing fee.</p>
+
+        <h3>📞 Contact Us</h3>
+        <p>If you have any questions, feel free to reach out to us through the contact form below.</p>
+
+        <div class="contact-form">
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy a Plot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #b3cde0, #f0f8ff);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background: #b3cde0;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .back-btn {
+            background: #007bff;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .back-btn:hover {
+            background: #0056b3;
+        }
+        .container {
+            max-width: 1100px;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            margin: 30px auto;
+        }
+        h2 {
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .plot-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 20px 0;
+            overflow: hidden;
+            display: flex;
+            background: #f9f9f9;
+        }
+        .plot-card img {
+            width: 40%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .plot-info {
+            padding: 15px;
+            width: 60%;
+        }
+        .plot-info h4 {
+            margin-bottom: 10px;
+        }
+        .btn-container {
+            margin-top: 10px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 8px 12px;
+            text-decoration: none;
+            color: white;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .btn-buy {
+            background: #28a745;
+        }
+        .btn-call {
+            background: #007bff;
+        }
+        .btn-whatsapp {
+            background: #25d366;
+        }
+        .btn-buy:hover {
+            background: #218838;
+        }
+        .btn-call:hover {
+            background: #0056b3;
+        }
+        .btn-whatsapp:hover {
+            background: #1ebc5d;
+        }
+        .contact-form {
+            margin-top: 30px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="dashboard.html" class="back-btn"><i class="fas fa-arrow-left"></i> Go Back</a>
+    </div>
+
+    <div class="container">
+        <h2>🏡 Buy a Plot</h2>
+        <p>Find the perfect land for your dream home or investment. We offer well-located and affordable plots.</p>
+
+        <!-- Plot 1 -->
+        <div class="plot-card">
+            <img src="images/p2.jpg" alt="Plot Image">
+            <div class="plot-info">
+                <h4>Prime Residential Plot - 50x100</h4>
+                <p>Location: Karen, Nairobi</p>
+                <p>Price:Ksh 25,000,000 </p>
+                <div class="btn-container">
+                    <a href="#" class="btn btn-buy">Buy Now</a>
+                    <a href="tel:+254700123456" class="btn btn-call">Call Seller</a>
+                    <a href="https://wa.me/254700123456" class="btn btn-whatsapp">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Plot 2 -->
+        <div class="plot-card">
+            <img src="images/p1.jpg" alt="Plot Image">
+            <div class="plot-info">
+                <h4>Commercial Plot - 100x100</h4>
+                <p>Location: Thika Town</p>
+                <p>Price:Ksh 22,000,000 </p>
+                <div class="btn-container">
+                    <a href="#" class="btn btn-buy">Buy Now</a>
+                    <a href="tel:+254700987654" class="btn btn-call">Call Seller</a>
+                    <a href="https://wa.me/254700987654" class="btn btn-whatsapp">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- Plot 3 -->
+        <div class="plot-card">
+            <img src="images/p3.jpg" alt="Plot Image">
+            <div class="plot-info">
+                <h4>Prime Residential Plot - 50x100</h4>
+                <p>Location: Karen, Nairobi</p>
+                <p>Price:Ksh 29,000,000 </p>
+                <div class="btn-container">
+                    <a href="#" class="btn btn-buy">Buy Now</a>
+                    <a href="tel:+254700123456" class="btn btn-call">Call Seller</a>
+                    <a href="https://wa.me/254700123456" class="btn btn-whatsapp">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Plot 4 -->
+        <div class="plot-card">
+            <img src="images/p4.jpg" alt="Plot Image">
+            <div class="plot-info">
+                <h4>Prime Residential Plot - 50x100</h4>
+                <p>Location: Karen, Nairobi</p>
+                <p>Price:Ksh 89 0000 </p>
+                <div class="btn-container">
+                    <a href="#" class="btn btn-buy">Buy Now</a>
+                    <a href="tel:+254700123456" class="btn btn-call">Call Seller</a>
+                    <a href="https://wa.me/254700123456" class="btn btn-whatsapp">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Plot 5 -->
+        <div class="plot-card">
+            <img src="images/p5.webp" alt="Plot Image">
+            <div class="plot-info">
+                <h4>Prime Residential Plot - 50x100</h4>
+                <p>Location: Karen, Nairobi</p>
+                <p>Price: $25,000</p>
+                <div class="btn-container">
+                    <a href="#" class="btn btn-buy">Buy Now</a>
+                    <a href="tel:+254700123456" class="btn btn-call">Call Seller</a>
+                    <a href="https://wa.me/254700123456" class="btn btn-whatsapp">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        <h3>📊 Why Buy With Us?</h3>
+        <ul>
+            <li>✔️ Prime and secure locations</li>
+            <li>✔️ Flexible payment options</li>
+            <li>✔️ Verified land ownership</li>
+            <li>✔️ Trusted by thousands of buyers</li>
+        </ul>
+
+        <h3>💡 Frequently Asked Questions (FAQs)</h3>
+        <p><strong>1. How do I purchase a plot?</strong><br>Click "Buy Now" on your preferred plot and follow the steps.</p>
+        <p><strong>2. Are the plots titled?</strong><br>Yes, all plots come with a valid title deed.</p>
+        <p><strong>3. Can I visit the plot before purchasing?</strong><br>Yes, contact us to schedule a visit.</p>
+
+        <h3>📞 Contact Us</h3>
+        <p>If you have any inquiries, feel free to reach out through the form below.</p>
+
+        <div class="contact-form">
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

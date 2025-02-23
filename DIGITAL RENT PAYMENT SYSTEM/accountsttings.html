@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Settings</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .settings-container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="settings-container">
+            <h2>Account Settings</h2>
+            <hr>
+            
+            <!-- Profile Settings -->
+            <h4>Profile Settings</h4>
+            <div class="form-group">
+                <label>Change Profile Picture:</label>
+                <input type="file" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Update Name:</label>
+                <input type="text" class="form-control" placeholder="Enter new name">
+            </div>
+            
+            <!-- Theme Settings -->
+            <h4>Theme & Appearance</h4>
+            <div class="form-group">
+                <label>Select Theme:</label>
+                <select class="form-control">
+                    <option>Light Mode</option>
+                    <option>Dark Mode</option>
+                    <option>Blue Theme</option>
+                    <option>Green Theme</option>
+                </select>
+            </div>
+            
+            <!-- Security Settings -->
+            <h4>Security & Privacy</h4>
+            <div class="form-group">
+                <label>Change Password:</label>
+                <input type="password" class="form-control" placeholder="Enter new password">
+            </div>
+            <div class="form-group">
+                <label>Enable Two-Factor Authentication:</label>
+                <input type="checkbox">
+            </div>
+            
+            <!-- Notification Settings -->
+            <h4>Notifications</h4>
+            <div class="form-group">
+                <label>Email Notifications:</label>
+                <input type="checkbox" checked>
+            </div>
+            <div class="form-group">
+                <label>SMS Alerts:</label>
+                <input type="checkbox">
+            </div>
+            
+            <!-- Apartment Management -->
+            <h4>Apartment Management</h4>
+            <div class="form-group">
+                <label>Upload Apartment Images:</label>
+                <input type="file" class="form-control" multiple>
+            </div>
+            <div class="form-group">
+                <label>Set Apartment Prices:</label>
+                <input type="text" class="form-control" placeholder="Enter price">
+            </div>
+            
+            <!-- Preferences -->
+            <h4>Preferences</h4>
+            <div class="form-group">
+                <label>Language:</label>
+                <select class="form-control">
+                    <option>English</option>
+                    <option>French</option>
+                    <option>Spanish</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Accessibility Features:</label>
+                <input type="checkbox"> Enable High Contrast Mode
+            </div>
+            
+            <button class="btn btn-success">Save Settings</button>
+            <a href="dashboard.html" class="btn btn-secondary">Back to Dashboard</a>
+        </div>
+    </div>
+</body>
+</html>
